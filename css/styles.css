@@ -45,8 +45,8 @@ main {
 .main-top {
   display: flex;
   justify-content: space-between;
-  width: 100%;
 }
+
 /* text part */
 .text-part {
   width: 445px;
@@ -70,6 +70,7 @@ main {
   line-height: 25px; /* 131.579% */
   letter-spacing: -0.633px;
 }
+
 /* rating part */
 .rating-part {
   width: 540px;
@@ -176,7 +177,7 @@ main {
   margin-top: 32px;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1110px) {
   body {
     width: 100%;
     background: url("../images/bg-pattern-top-mobile.svg") left top no-repeat,
